@@ -1,0 +1,179 @@
+.footer-top {
+    background-color: #efefef;
+
+    .holder {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding: 80px 0 101px 0;
+
+        .logo-social {
+            max-width: 400px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 30px;
+
+            img {
+                margin-bottom: 24px;
+            }
+
+            p {
+                color: rgb(86, 86, 86);
+                font-family: var(--ff-poppins);
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24.01px;
+                margin-bottom: 34px;
+            }
+
+            .links {
+                display: flex;
+                gap: 20px;
+                justify-content: start;
+                align-items: center;
+
+                a {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    background-color: #fff;
+                    display: grid;
+                    place-content: center;
+                    transition: all 0.3s ease;
+
+                    img {
+                        margin-bottom: 0;
+                    }
+                }
+
+                a:hover {
+                    background-color: var(--primary-color);
+                }
+            }
+        }
+
+        .contact {
+            margin-bottom: 30px;
+            h3 {
+                color: rgb(17, 17, 17);
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 22.5px;
+                text-transform: capitalize;
+                padding-bottom: 19px;
+                border-bottom: 1px solid rgb(222, 226, 230);
+                position: relative;
+
+                span {
+                    position: absolute;
+                    width: 60px;
+                    height: 2px;
+                    background-color: var(--primary-color);
+                    bottom: 0;
+                    left: 0;
+                }
+            }
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                margin-top: 24px;
+                li {
+                    a {
+                        color: rgb(86, 86, 86);
+                        font-family: var(--ff-poppins);
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+
+        .contact.sign {
+            max-width: 415px;
+            width: 100%;
+            margin-bottom: 30px;
+
+            p {
+                margin-top: 24px;
+                margin-bottom: 19px;
+            }
+
+            .sign-up {
+                width: 100%;
+                background-color: #fff;
+                display: flex;
+                align-items: center;
+                //  justify-content: space-between;
+                border: 1px solid #fff;
+                border-radius: 30px;
+                overflow: hidden;
+
+                input {
+                    width: 75%;
+                    height: 100%;
+                    padding: 13px 11px;
+                    outline: none;
+                    border: none;
+                    font-family: var(--ff-poppins);
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: rgb(86, 86, 86);
+                }
+
+                .btn {
+                    padding: 15px;
+                    height: 100%;
+                    flex-grow: 1;
+                    background-color: var(--primary-color);
+
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer-bot {
+    background: #000;
+
+    .holder {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 0;
+        gap: 20px;
+
+        p {
+            font-family: var(--ff-poppins);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24.01px;
+            color: #fff;
+
+            .name {
+                color: var(--primary-color);
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+@media ( max-width: 568px) {
+    .footer-bot {
+
+        .holder {
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+    }
+}

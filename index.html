@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- style link -->
+        <link rel="stylesheet" href="./assets/styles/style.css" />
+        <!-- style link -->
+
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- fonts -->
+
+        <!-- cdnjs -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- cdnjs -->
+
+        <title>Looki</title>
+    </head>
+    <body>
+        <!-- header scss -->
+        <header class="nav-top" id="home">
+            <div class="container">
+                <nav class="navigation">
+                    <div class="social-links">
+                        <ul class="links-list">
+                            <li>
+                                <a href="#"
+                                    ><img
+                                        src="./assets/images/icons/facebook.svg"
+                                        width="30"
+                                        height="30"
+                                        alt="links"
+                                /></a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><img
+                                        src="./assets/images/icons/twit.svg"
+                                        width="30"
+                                        height="30"
+                                        alt="links"
+                                /></a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><img
+                                        src="./assets/images/icons/youtube.svg"
+                                        width="34"
+                                        height="34"
+                                        alt="links"
+                                /></a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><img
+                                        src="./assets/images/icons/insta.svg"
+                                        width="26"
+                                        height="26"
+                                        alt="links"
+                                /></a>
+                            </li>
+                            <li class="phone">
+                                <a href="#"
+                                    ><img
+                                        src="./assets/images/icons/phone.svg"
+                                        width="28"
+                                        height="28"
+                                        alt="phone" /></a
+                                ><a href="#">(+123)4567890</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="logo">
+                        <p>USA $</p>
+                        <a href="#"
+                            ><img
+                                src="./assets/images/icons/usaflag.svg"
+                                width="16"
+                                height="11"
+                                alt="falg"
+                            />English</a
+                        >
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <header class="nav-bot">
+            <div class="container">
+                <div class="holder">
+                    <div class="hamburger-menu">
+                        <div class="hamburger" id="hamburger">
+                            <i class="fa-solid fa-bars" id="open-close"></i>
+                        </div>
+                    </div>
+
+                    <div class="logo">
+                        <a href="#"
+                            ><img
+                                src="./assets/images/image/logo.png.png"
+                                alt="logo"
+                                width="114"
+                                height="34"
+                        /></a>
+                    </div>
+
+                    <div class="navigation">
+                        <ul class="sections-list">
+                            <li><a href="#home">HOME</a></li>
+                            <li><a href="#shop">SHOP</a></li>
+                            <li><a href="#pages">PAGES</a></li>
+                            <li><a href="#blog">BLOG</a></li>
+                            <li><a href="#contact">CONTACT US</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="btns">
+                        <ul class="btns-list">
+                            <li id="searcher">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/icons/Icon_search.svg"
+                                        alt="shopping"
+                                    />
+                                </a>
+                            </li>
+
+                            <li class="shuffle">
+                                <span class="counter">2</span>
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/icons/Icon_shuffle.svg"
+                                        alt="shopping"
+                                        width="24"
+                                        height="30"
+                                    />
+                                </a>
+                            </li>
+
+                            <li class="favourite">
+                                <span class="counter">3</span>
+                                <a href="wishlist.html">
+                                    <img
+                                        src="./assets/images/icons/Icon_favourite.svg"
+                                        alt="shopping"
+                                    />
+                                </a>
+                            </li>
+
+                            <li class="bag">
+                                <span class="counter">1</span>
+                                <a href="home.html">
+                                    <img
+                                        src="./assets/images/icons/Icon_bag.svg"
+                                        alt="shopping"
+                                    />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="displayNone hiddenWindow" id="hiddenWindow">
+                        <div class="x-mark">
+                            <div class="closer" id="closer-menu">
+                                <div>
+                                    <i class="fa-solid fa-xmark"></i>
+                                    <span>Close</span>
+                                </div>
+                                <img
+                                    src="./assets/images/image/logo.png.png"
+                                    alt="logo"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="hidden-pages">
+                            <ul class="list">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Pages</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact us</a></li>
+                            </ul>
+                        </div>
+
+                        <nav class="navigation">
+                            <ul class="links-list">
+                                <li>
+                                    <a href="#"
+                                        ><img
+                                            src="./assets/images/icons/facebook.svg"
+                                            width="30"
+                                            height="30"
+                                            alt="links"
+                                        />facebook</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        ><img
+                                            src="./assets/images/icons/twit.svg"
+                                            width="30"
+                                            height="30"
+                                            alt="links"
+                                        />twitter</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        ><img
+                                            src="./assets/images/icons/youtube.svg"
+                                            width="34"
+                                            height="34"
+                                            alt="links"
+                                        />
+                                        youtube</a
+                                    >
+                                </li>
+                                <li>
+                                    <a href="#"
+                                        ><img
+                                            src="./assets/images/icons/insta.svg"
+                                            width="26"
+                                            height="26"
+                                            alt="links"
+                                        />instagram</a
+                                    >
+                                </li>
+                                <li class="phone">
+                                    <a href="#"
+                                        ><img
+                                            src="./assets/images/icons/phone.svg"
+                                            width="28"
+                                            height="28"
+                                            alt="phone" /></a
+                                    ><a href="#">(+123)4567890</a>
+                                </li>
+                            </ul>
+
+                            <div class="logo">
+                                <p>USA $</p>
+                                <a href="#"
+                                    ><img
+                                        src="./assets/images/icons/usaflag.svg"
+                                        width="20"
+                                        height="20"
+                                        alt="falg"
+                                    />English</a
+                                >
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+ 
+            
+        </header>
+
+        <!-- search input -->
+        <div class="search-input" id="search-input">
+            <div class="container">
+                <div class="search">
+                    <label class="search-label">
+                        <input class="input" type="text" placeholder="search..." />
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </label>
+
+                    <div class="xmark" id="xmark">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        <!-- search input -->
+          
+     <!-- shopping popover -->
+     <div class="search-card " id="search-card">
+        <div class="wrapper" id="wrapper">
+
+        </div>
+    </div>
+    <!-- shopping popover -->
+
+   
+
+        <section class="hero">
+            <div class="list">
+                <div class="item">
+                    <img src="./assets/images/image/herobg.png" alt="image" />
+                </div>
+
+                <div class="item">
+                    <img
+                        src="./assets/images/image/wallpapwer1.jpg"
+                        alt="image"
+                    />
+                </div>
+
+                <div class="item">
+                    <img
+                        src="./assets/images/image/wallpaper2.jpg"
+                        alt="image"
+                    />
+                </div>
+
+                <div class="item">
+                    <img
+                        src="./assets/images/image/wallpaper3.jpg"
+                        alt="image"
+                    />
+                </div>
+
+                <div class="item">
+                    <img src="./assets/images/image/wall2.jpg" alt="image" />
+                </div>
+            </div>
+
+            <!-- btns next & prev -->
+            <div class="buttons">
+                <button id="prev">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button id="next">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <ul class="dots">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+
+        <!-- sectionAd scss -->
+
+        <section class="ads">
+            <div class="container">
+                <div class="add-list">
+                    <div class="add-item">
+                        <img
+                            src="./assets/images/icons/2.png.svg"
+                            width="56"
+                            height="45"
+                            alt="icons"
+                        />
+                        <p>
+                            Free Shipping <br />
+                            <span>On all orders over $75.00</span>
+                        </p>
+                    </div>
+
+                    <div class="add-item">
+                        <img
+                            src="./assets/images/icons/3.png.svg"
+                            width="45"
+                            height="45"
+                            alt="icons"
+                        />
+                        <p>
+                            Free Returns <br />
+                            <span>Returns are free within 9 days</span>
+                        </p>
+                    </div>
+
+                    <div class="add-item">
+                        <img
+                            src="./assets/images/icons/4.png.svg"
+                            width="34"
+                            height="45"
+                            alt="icons"
+                        />
+                        <p>
+                            100% Payment Secure <br />
+                            <span>Your payment are safe with us.</span>
+                        </p>
+                    </div>
+
+                    <div class="add-item">
+                        <img
+                            src="./assets/images/icons/5.png.svg"
+                            width="50"
+                            height="45"
+                            alt="icons"
+                        />
+                        <p>
+                            Support 24/7 <br />
+                            <span>Contact us 24 hours a day</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="image-only">
+            <div class="container">
+                <div class="image-holder">
+                    <div class="image-item">
+                        <img
+                            src="./assets/images/image/1.jpg.png"
+                            alt="image-only"
+                        />
+                    </div>
+                    <div class="image-item">
+                        <img
+                            src="./assets/images/image/2.jpg.png"
+                            alt="image-only"
+                        />
+                    </div>
+                    <div class="image-item">
+                        <img
+                            src="./assets/images/image/3.jpg.png"
+                            alt="image-only"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ourProduction scss -->
+
+        <section class="product-title" id="shop">
+            <div class="container">
+                <div class="title">
+                    <h1>Our products</h1>
+                    <span></span>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Perspiciatis, culpa?
+                    </p>
+                </div>
+
+                <div class="tabs">
+                    <ul>
+                        <li><a href="#">new products</a></li>
+                        <li><a href="#">onsale</a></li>
+                        <li><a href="#">upcoming products</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="our-product">
+            <div class="container">
+                <div class="product-list" id="product-list"></div>
+            </div>
+        </section>
+
+        <section class="product-image-section">
+            <div class="container">
+                <div class="holder">
+                    <div class="item">
+                        <img src="./assets/images/image/6.jpg.png" alt="" />
+                    </div>
+                    <div class="item">
+                        <img src="./assets/images/image/5.jpg.png" alt="" />
+                    </div>
+                    <div class="item">
+                        <img src="./assets/images/image/4.jpg.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-title" id="pages">
+            <div class="container">
+                <div class="title">
+                    <h1>New Arrival products</h1>
+                    <span></span>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Dignissimos, repellat.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="our-product">
+            <div class="container">
+                <div class="product-list" id="product-items"></div>
+            </div>
+        </section>
+
+        <section class="product-title" id="blog">
+            <div class="container">
+                <div class="title">
+                    <h1>from our Latest Blogs</h1>
+                    <span></span>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog">
+            <div class="container">
+                <div class="holder">
+                    <div class="item">
+                        <div class="image">
+                            <!-- json data -->
+                            <img
+                                src="./assets/images/image/blog4.png"
+                                alt="image"
+                            />
+                        </div>
+                        <div class="content">
+                            <span>Fashion</span>
+                            <h2>This is first Post For Blog</h2>
+                            <p>
+                                Posted by <span> HasTech </span> 12TH Nov 2023
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <!-- json data -->
+                            <img
+                                src="./assets/images/image/blog1.png"
+                                alt="image"
+                            />
+                        </div>
+                        <div class="content">
+                            <span>Fashion</span>
+                            <h2>This is first Post For Blog</h2>
+                            <p>
+                                Posted by <span> HasTech </span> 12TH Nov 2023
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <!-- json data -->
+                            <img
+                                src="./assets/images/image/blog2.png"
+                                alt="image"
+                            />
+                        </div>
+                        <div class="content">
+                            <span>Fashion</span>
+                            <h2>This is first Post For Blog</h2>
+                            <p>
+                                Posted by <span> HasTech </span> 12TH Nov 2023
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <!-- json data -->
+                            <img
+                                src="./assets/images/image/blog3.png"
+                                alt="image"
+                            />
+                        </div>
+                        <div class="content">
+                            <span>Fashion</span>
+                            <h2>This is first Post For Blog</h2>
+                            <p>
+                                Posted by <span> HasTech </span> 12TH Nov 2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="partners">
+            <div class="container">
+                <div class="holder">
+                    <img src="./assets/images/image/part1.svg" alt="image" />
+                    <img src="./assets/images/image/part2.svg" alt="image" />
+                    <img src="./assets/images/image/part3.svg" alt="image" />
+                    <img src="./assets/images/image/part4.svg" alt="image" />
+                    <img src="./assets/images/image/part5.svg" alt="image" />
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer-top" id="contact">
+            <div class="container">
+                <div class="holder">
+                    <div class="logo-social">
+                        <img
+                            src="./assets/images/image/logo.png.png"
+                            width="114"
+                            height="34"
+                            alt="logo"
+                        />
+                        <p>
+                            We are a team of professional designers and
+                            developers that create high quality wordpress
+                            plugins, Html, React Template.
+                        </p>
+                        <div class="links">
+                            <a href="#"
+                                ><img
+                                    src="./assets/images/icons/instagram-b.svg"
+                                    width="30"
+                                    height="30"
+                                    alt="icons"
+                            /></a>
+                            <a href="#"
+                                ><img
+                                    src="./assets/images/icons/youtube-b.svg"
+                                    width="30"
+                                    height="27"
+                                    alt="icons"
+                            /></a>
+                            <a href="#"
+                                ><img
+                                    src="./assets/images/icons/twitter-b.svg"
+                                    width="30"
+                                    height="30"
+                                    alt="icons"
+                            /></a>
+                            <a href="#"
+                                ><img
+                                    src="./assets/images/icons/facebook-b.svg"
+                                    width="27"
+                                    height="27"
+                                    alt="icons"
+                            /></a>
+                        </div>
+                    </div>
+
+                    <div class="contact">
+                        <h3>
+                            Information
+                            <span></span>
+                        </h3>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">payment</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Stores</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="contact">
+                        <h3>
+                            social Links
+                            <span></span>
+                        </h3>
+                        <ul>
+                            <li><a href="#">New products</a></li>
+                            <li><a href="#">Best sales</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">My account</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="contact sign">
+                        <h3>
+                            Information
+                            <span></span>
+                        </h3>
+                        <p>
+                            Subcribe to the TheFace mailing list to receive
+                            update on mnew arrivals, special offers and other
+                            discount information.
+                        </p>
+
+                        <div class="sign-up">
+                            <input
+                                type="email"
+                                placeholder="Your Email Address"
+                            />
+                            <div class="btn">
+                                <a href="#">Sign Up</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <footer class="footer-bot">
+            <div class="container">
+                <div class="holder">
+                    <p>
+                        Copyright © <span class="name">HasThemes.</span> All
+                        Rights Reserved
+                    </p>
+                    <img
+                        src="./assets/images/image/payments.png"
+                        width="286"
+                        height="23"
+                        alt="payment"
+                    />
+                </div>
+            </div>
+        </footer>
+
+        <script src="./assets/javascript/main.js"></script>
+        <script src="./assets/javascript/script.js"></script>
+        <script src="./assets/javascript/search.js"></script>
+    </body>
+</html>

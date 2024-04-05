@@ -1,0 +1,11 @@
+@import "./normalize";
+@import "./mixin";
+@import "./header";
+@import "./sectionAd";
+@import "./ourProducts";
+@import "./footer";
+@import "./homePage";
+
+html {
+    scroll-behavior: smooth;
+}
